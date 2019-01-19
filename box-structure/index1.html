@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" lang="en">
+	<link rel="stylesheet" type="text/css" href="style1.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Box Structure</title>
+</head>
+
+<body>
+	
+	<header>
+		<div class="containerlogo">
+		<img src="logo-newspaper-cf.png" id="logo">
+		</div>
+		<div class="containerbanner">
+		<a href="https://www.codefactory.wien"><img src="banner-1.png" id="banner1"></a>
+		</div>
+		
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="">Tech</a></li>
+			<li><a href="">Culture</a></li>
+			<li><a href="">Video</a></li>
+		</ul>
+	</nav>
+	<div class="date">
+			<p id="date"></p>
+		</div>	
+
+<div id="wrapper">
+
+	<main>
+
+		<div class="subtitle1">
+			<h3>Top News</h3>
+		</div>
+
+<!---start upper part incl. 6 img + 1 vertical. banner & 1 horiz. Banner----->
+
+	<article> 
+
+
+		<div class="box">
+			<figure>
+			<a href="article.html"><img src="eu.png"></a>
+			<figcaption>Lorem ipsum dolor<br>Lorem ipsum dolor</figcaption>
+			</figure>
+		</div>
+
+		<div class="box" >
+			<figure>
+			<a href="article.html"><img src="nasa.png"></a>
+			<figcaption>Lorem ipsum dolor<br>Lorem ipsum dolor</figcaption>
+			</figure>
+		</div>
+
+		<div class="box">
+			<figure>
+			<a href="article.html"><img src="jeff.png"></a>
+			<figcaption>Lorem ipsum dolor<br>Lorem ipsum dolor</figcaption>
+			</figure>
+		</div>
+				
+			<a href="article.html"><img src="banner-mobile-fswd.png" id="bannermobile"></a>
+
+		<div class="subtitle2">
+			<h3>Popular</h3>
+		</div>
+		
+		<div class="box" >
+			<figure>
+			<a href="article.html"><img src="polar.png"></a>
+			<figcaption>Lorem ipsum dolor<br>Lorem ipsum dolor</figcaption>
+			</figure>
+		</div>
+
+		<div class="box">
+			<figure>
+			<a href="article.html"><img src="musk.jpg"></a>
+			<figcaption>Lorem ipsum dolor<br>Lorem ipsum dolor</figcaption>
+			</figure>
+		</div>
+
+		<div class="box">
+			<figure>
+			<a href="article.html"><img src="snowden.jpg"></a>
+			<figcaption>Lorem ipsum dolor<br>Lorem ipsum dolor</figcaption>
+			</figure>
+		</div>
+		
+	</article> 
+
+		<aside>
+			<a href="https://www.codefactory.wien"><img src="banner-2.png" id="banner2"></a>
+		</aside>
+
+		<div id="banner3"> <!-----this is the horiz. Banner----->
+			<a href="https://www.codefactory.wien"><img src="banner-3.png"></a>
+		</div>
+
+			<!----End of upper part---->
+
+	<article><!----start  bottom part incl. 4 img + 1 vertical banner----->
+			
+		<div class="box2" >
+			<figure>
+			<a href=""><img src="iphone.png"></a>
+			<figcaption>Lorem ipsum dolor<br>Lorem ipsum dolor</figcaption>
+			</figure>
+		</div>
+
+		<div class="box2" >
+			<figure>
+			<a href=""><img src="smart.png"></a>
+			<figcaption>Lorem ipsum dolor<br>Lorem ipsum dolor</figcaption>
+			</figure>
+		</div>
+
+		<div class="box2">
+			<figure>
+			<a href=""><img src="one.png"></a>
+			<figcaption>Lorem ipsum dolor<br>Lorem ipsum dolor</figcaption>
+			</figure>
+		</div>
+
+		<div class="box2" >
+			<figure>
+			<a href=""><img src="phone.png"></a>
+			<figcaption>Lorem ipsum dolor<br>Lorem ipsum dolor</figcaption>
+			</figure>
+		</div>
+		
+
+	</article>
+
+		<aside>
+			<a href="https://www.codefactory.wien
+			"><img src="banner-4.png" id="banner4"></a>
+		</aside>
+		
+	</main>		<!---end of bottom part---->
+
+</div><!---wrapper end---->
+
+	<footer>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="">Tech</a></li>
+			<li><a href="">Culture</a></li>
+			<li><a href="">Video</a></li>
+		</ul>
+		<div class="logofooter">
+			<img src="logo-newspaper-cf.png">
+		</div>
+			<p>Vincenzo Schiavone - CodeFactory 2019</p>
+		
+	</footer>
+
+
+
+<script>
+n =  new Date();
+y = n.getFullYear();
+m = n.getMonth() + 1;
+d = n.getDate();
+document.getElementById("date").innerHTML = d + "/" + m + "/" + y;
+</script>
+
+</body>
+</html>
